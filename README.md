@@ -1,6 +1,5 @@
 # OceanSim - 水下机器人仿真器
-
-基于 Godot 4.5 + Python 的 3D 水下机器人（AUV）仿真平台，支持路径规划、避障、强化学习等算法验证。
+![OceanSim](OceanSim.png)
 
 ## 项目结构
 
