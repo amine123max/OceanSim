@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "OceanSim: A Real-Time Robotics Simulation Platform for AUV, USV, and UAV Autonomy Research"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - name: "OceanSim Contributors"
+    website: "https://github.com/amine123max/OceanSim"
+repository-code: "https://github.com/amine123max/OceanSim"
+url: "https://amine123max.github.io/OceanSim_Web/"
+license: MIT
+keywords:
+  - robotics
+  - simulation
+  - AUV
+  - USV
+  - UAV
+  - autonomous underwater vehicle
+  - unmanned surface vehicle
+  - unmanned aerial vehicle
+  - marine robotics
+  - ocean simulation
+  - Godot
+  - Python SDK
