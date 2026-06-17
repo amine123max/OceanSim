@@ -37,9 +37,63 @@ The demo highlights four representative map profiles:
 - Dataset generation for robotics, learning-based perception, and reproducible benchmark studies.
 - Multi-agent marine simulation for cooperative or adversarial interaction research.
 
+## Quick Start
+
+**Requirements:** Godot 4.5+, Python 3.8+, NumPy
+
+```bash
+# 1. Run the simulator
+cd /path/to/OceanSim/oceansim
+godot --path .
+
+# 2. Install the Python SDK (editable mode)
+cd /path/to/OceanSim/oceansim
+pip install -e python
+
+# 3. Verify connection
+python -c "
+from oceansim_client import OceanSimClient
+client = OceanSimClient(host='localhost', port=9876, timeout=5.0)
+if client.connect():
+    response = client.send_command('get_state')
+    print(response['type'], response.get('status'))
+    client.disconnect()
+"
+```
+
+## Repository Layout
+
+```
+oceansim/
+├── assets/models/          # AUV and USV model resources
+├── scenes/                 # Godot scene files and entry points
+├── scripts/
+│   ├── auv/                # AUV body, thrusters, buoyancy
+│   ├── sensors/            # Navigation, vision, range, sonar
+│   └── network/            # TCP server and protocol helpers
+├── python/oceansim_client/ # Python SDK, mapping, datasets
+├── vehicle_profiles/       # Vehicle physical configurations
+└── tools/                  # Smoke tests and release gates
+```
+
 ## Documentation
 
 Full documentation is available at [OceanSim_Web](https://amine123max.github.io/OceanSim_Web/), including simulator usage, scenario configuration, Python SDK workflows, TCP API integration, and experiment-oriented references.
+
+## Citation
+
+If you use OceanSim in your research, please cite:
+
+```bibtex
+@software{oceansim2026,
+  author       = {OceanSim Contributors},
+  title        = {OceanSim: A Real-Time Robotics Simulation Platform for AUV, USV, and UAV Autonomy Research},
+  year         = {2026},
+  publisher    = {GitHub},
+  url          = {https://github.com/amine123max/OceanSim},
+  howpublished = {\url{https://github.com/amine123max/OceanSim}}
+}
+```
 
 ## Project Status
 
