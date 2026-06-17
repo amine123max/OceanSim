@@ -99,6 +99,12 @@ If you use OceanSim in your research, please cite:
 
 OceanSim is a research-oriented simulator for algorithm development, evaluation, and data generation across AUV, USV, and UAV workflows. It is not intended to replace certification-grade hydrodynamic, aerodynamics, or high-fidelity industrial simulation suites.
 
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on development setup, code guidelines, and pull request process.
+
+Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
 ## License
 
 OceanSim is released under the MIT License.

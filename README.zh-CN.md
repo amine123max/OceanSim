@@ -99,6 +99,12 @@ oceansim/
 
 OceanSim 是面向 AUV、USV 与 UAV 算法开发、实验评估和数据生成的研究型仿真平台，不用于替代认证级水动力、空气动力或工业级高保真仿真套件。
 
+## 贡献指南
+
+欢迎参与贡献！请阅读[贡献指南](CONTRIBUTING.md)了解开发环境配置、代码规范和 Pull Request 流程。
+
+请注意，本项目遵循[行为准则](CODE_OF_CONDUCT.md)。参与本项目即表示您同意遵守其条款。
+
 ## 许可证
 
 OceanSim 使用 MIT License 发布。
