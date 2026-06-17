@@ -6,9 +6,9 @@
 
 ![OceanSim](OceanSim_Title.png)
 
-OceanSim is a real-time underwater robotics simulation platform for AUV autonomy research, marine perception development, navigation evaluation, and dataset generation. Built on Godot, it provides configurable ocean environments, controllable vehicle behavior, simulated onboard sensors, and external interfaces for algorithm-driven experiments.
+OceanSim is a real-time robotics simulation platform for AUV, USV, and UAV autonomy research in marine-oriented environments. Built on Godot, it provides configurable ocean scenes, controllable vehicle behavior across underwater, surface, and aerial domains, simulated onboard sensors, and external interfaces for algorithm-driven experiments.
 
-The simulator is designed for fast research iteration: lightweight enough for rapid prototyping, structured enough for reproducible evaluation, and extensible enough to support control, mapping, perception, planning, and multi-agent studies in underwater environments.
+The simulator is designed for fast research iteration: lightweight enough for rapid prototyping, structured enough for reproducible evaluation, and extensible enough to support control, mapping, perception, planning, and multi-agent studies across heterogeneous robotic platforms.
 
 ## Video_demo
 
@@ -16,24 +16,24 @@ The simulator is designed for fast research iteration: lightweight enough for ra
 
 The demo highlights four representative map profiles:
 
-- `Narrow_Map`: constrained navigation through narrow underwater passages.
+- `Narrow_Map`: constrained navigation through narrow marine passages.
 - `Pale_Map`: sparse, low-contrast terrain for perception and mapping robustness.
 - `Static_Map`: fixed-obstacle scenarios for repeatable planning benchmarks.
 - `Dynamic_Map`: moving-obstacle and multi-agent scenes for interaction experiments.
 
 ## Core Capabilities
 
-- Real-time underwater simulation with configurable terrain, obstacles, ocean-current disturbance, and scenario parameters.
-- AUV-centered runtime for testing vehicle behavior, navigation logic, and closed-loop control strategies.
+- Real-time marine-oriented simulation with configurable terrain, obstacles, ocean-current disturbance, and scenario parameters.
+- Multi-vehicle runtime for testing AUV, USV, and UAV behavior, navigation logic, and closed-loop control strategies.
 - Sensor-oriented simulation for camera, RGB-D, depth, IMU, DVL, lidar, sonar, and point-cloud workflows.
 - External control through a structured TCP protocol for integrating planners, controllers, learning agents, and research scripts.
 - Python-based experimentation workflows for automation, data capture, replay, perception processing, and evaluation.
 
 ## Research Applications
 
-- Autonomous underwater vehicle control and trajectory validation.
+- AUV, USV, and UAV autonomous control and trajectory validation.
 - Path planning and obstacle-avoidance evaluation under static and dynamic conditions.
-- Underwater perception, point-cloud mapping, RGB-D processing, and sensor-fusion experiments.
+- Marine perception, point-cloud mapping, RGB-D processing, and sensor-fusion experiments across underwater, surface, and aerial viewpoints.
 - Dataset generation for robotics, learning-based perception, and reproducible benchmark studies.
 - Multi-agent marine simulation for cooperative or adversarial interaction research.
 
@@ -43,7 +43,7 @@ Full documentation is available at [OceanSim_Web](https://amine123max.github.io/
 
 ## Project Status
 
-OceanSim is a research-oriented simulator for algorithm development, evaluation, and data generation. It is not intended to replace certification-grade hydrodynamic solvers or high-fidelity industrial simulation suites.
+OceanSim is a research-oriented simulator for algorithm development, evaluation, and data generation across AUV, USV, and UAV workflows. It is not intended to replace certification-grade hydrodynamic, aerodynamics, or high-fidelity industrial simulation suites.
 
 ## License
 
